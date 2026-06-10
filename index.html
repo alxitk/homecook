@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Домашня кухня — Харків</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ headeer ============ -->
+  <header class="site-header">
+    <a href="#top" class="logo">
+      <img src="images/logo.svg" alt="Домашня кухня" class="logo-img">
+    </a>
+    <a href="#order" class="btn-order">Замовити</a>
+  </header>
+
+  <span id="top"></span>
+
+  <!-- ============ hero ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay">
+      <h1 class="hero-title">Домашня кухня</h1>
+      <p class="hero-subtitle">Смачно, як удома</p>
+      <p class="hero-text">Заморозка та салати під замовлення · Харків</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn-order">Подивитись меню</a>
+        <a href="https://instagram.com/[НІК]" class="btn-ghost" target="_blank" rel="noopener">Замовити в Direct</a>
+      </div>
+      <p class="hero-note">Замовлення за 2–3 дні · потрібна передоплата</p>
+    </div>
+  </section>
+
+  <!-- ============ menu ============ -->
+  <section class="menu reveal" id="menu">
+    <h2 class="section-title">Меню</h2>
+    <p class="menu-note">Ціни вказані за кілограм · Замовлення за 2–3 дні</p>
+
+    <nav class="menu-nav" id="menuNav" aria-label="Розділи меню"></nav>
+    <div id="menuRoot"></div>
+  </section>
+
+  <!-- ============ about ============ -->
+  <section class="about reveal" id="about">
+    <div class="about-photo">
+      <img src="images/about/media-530906559.jpg" alt="Господиня" loading="lazy">
+    </div>
+    <div class="about-text">
+      <h2 class="section-title about-title">Про нас</h2>
+      <p>[Кілька речень про господиню: скільки років готує, що все домашнє, зі свіжих продуктів, готує сама з любов'ю. Замінити на реальний текст.]</p>
+      <p>[Другий абзац — за бажанням: чому саме ці страви, для кого готує. Або прибрати.]</p>
+    </div>
+  </section>
+
+  <!-- ============ reviews ============ -->
+  <section class="reviews reveal" id="reviews">
+    <h2 class="section-title">Відгуки</h2>
+    <p class="menu-note">Що кажуть наші клієнти</p>
+    <div class="reviews-grid" id="reviewsRoot"></div>
+  </section>
+
+  <!-- ============ gallery ============ -->
+  <section class="gallery reveal" id="gallery">
+    <h2 class="section-title">Наші роботи</h2>
+    <p class="menu-note">Більше фото — в нашому Instagram</p>
+    <div class="gallery-track" id="galleryRoot"></div>
+  </section>
+
+  <!-- ============ order ============ -->
+  <section id="order" class="order reveal">
+    <h2 class="section-title">Як замовити</h2>
+
+    <ol class="order-steps">
+      <li class="order-step">
+        <span class="order-num">1</span>
+        <p>Пишете в Direct: що саме, скільки кг і на яку дату.</p>
+      </li>
+      <li class="order-step">
+        <span class="order-num">2</span>
+        <p>Підтверджуємо замовлення за 2–3 дні, вносите передоплату (переказ на картку).</p>
+      </li>
+      <li class="order-step">
+        <span class="order-num">3</span>
+        <p>Готуємо → самовивіз або доставка.</p>
+      </li>
+    </ol>
+
+    <p class="order-delivery">Доставка до метро — 150 грн · таксі — за рахунок покупця</p>
+
+    <a href="https://instagram.com/[НІК]" class="btn-order order-cta" target="_blank" rel="noopener">Написати в Direct</a>
+  </section>
+
+  <!-- ============ footer ============ -->
+  <footer class="site-footer" id="contacts">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.svg" alt="Домашня кухня" class="footer-logo">
+        <p class="footer-tagline">Смачно, як удома</p>
+      </div>
+      <nav class="footer-contacts">
+        <a href="https://instagram.com/[НІК]" class="footer-link" target="_blank" rel="noopener">Instagram&nbsp;→ @[НІК]</a>
+        <a href="tel:+380[НОМЕР]" class="footer-link">+380 [НОМЕР]</a>
+        <span class="footer-text">Харків, район&nbsp;[___]</span>
+        <span class="footer-text">Приймаємо замовлення: [дні / години]</span>
+      </nav>
+      <a href="https://instagram.com/[НІК]" class="footer-cta" target="_blank" rel="noopener">Замовити в Direct</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Домашня кухня · Харків</span>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
